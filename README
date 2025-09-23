@@ -1,2 +1,11 @@
 # JAVA EXERCISES
 Este repositório contém desafios e exercícios de python.
+
+##Exercício 001
+Crie variáveis para armazenar seu nome e idade, e depois imprima essas informações.
+
+##Exercício 002
+Crie duas variáveis inteiras, some-as e imprima o resultado.
+
+##Exercício 003
+Crie duas variáveis do tipo double representando notas de um aluno, calcule a média e imprima.
