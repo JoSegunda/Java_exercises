@@ -9,3 +9,6 @@ Crie duas variáveis inteiras, some-as e imprima o resultado.
 
 ##Exercício 003
 Crie duas variáveis do tipo double representando notas de um aluno, calcule a média e imprima.
+
+##Exercício 004
+Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
