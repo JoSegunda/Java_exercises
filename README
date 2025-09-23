@@ -1,28 +1,29 @@
 # JAVA EXERCISES
 Este repositório contém desafios e exercícios de python.
 
-##Exercício 001
+## Exercício 001
 Crie variáveis para armazenar seu nome e idade, e depois imprima essas informações.
 
-##Exercício 002
+## Exercício 002
 Crie duas variáveis inteiras, some-as e imprima o resultado.
 
-##Exercício 003
+## Exercício 003
 Crie duas variáveis do tipo double representando notas de um aluno, calcule a média e imprima.
 
-##Exercício 004
+## Exercício 004
 Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
 
-##Exercício 005
+## Exercício 005
 Write a Java program to print the sum (addition), multiply, subtract(always the highest to lowest)
 , divide and remainder of two numbers(only if the remainder is even).
 
-##Exercício 006
+## Exercício 006
 Write a Java program that takes a number as input and prints its multiplication table up to 10.
-##Exercício 004
 
-##Exercício 004
+## Exercício 007
+Write a Java program to print the area and perimeter of a circle given a radius.
+## Exercício 004
 
-##Exercício 004
+## Exercício 004
 
-##Exercício 004
+## Exercício 004
