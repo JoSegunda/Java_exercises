@@ -13,9 +13,9 @@ public class exe005 {
         area = Math.PI * (Math.pow(radius,2));
         volume = (4.0 / 3.0) * (Math.PI * Math.pow(radius,3));
 
-        System.out.println("The volume is: "+volume);
-        System.out.println("The area of the circle is: "+area);
-        System.out.println("The circumference of the circle is: "+circumference);
+        System.out.printf("The volume is: %.2fcm³\n",volume);
+        System.out.printf("The area of the circle is: %.2fm²\n",area);
+        System.out.printf("The circumference of the circle is: %.2fcm\n",circumference);
 
     }
 }
