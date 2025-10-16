@@ -13,11 +13,11 @@ public class exe005 {
         sc.nextLine();
 
         System.out.print("Convert to celsius or Fahrenheit? [C / F]: ");
-        choice = sc.nextLine().toLowerCase();
+        choice = sc.nextLine().toUpperCase();
 
-        result = (choice.equals("f")) ? (temp * 5/9) + 32: (temp - 32) * 5/9;
+        result = (choice.equals("F")) ? (temp * 5/9) + 32: (temp - 32) * 5/9;
 
-        System.out.printf("Temperature: %.2fº%s",result,choice.toUpperCase());
+        System.out.printf("Temperature: %.2fº%s",result,choice);
         sc.close();
     }
 }
