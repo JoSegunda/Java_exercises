@@ -28,7 +28,6 @@ public class exe007 {
             attempts--;
             System.out.println(attempts + " attempts left.");
 
-
         }
 
     }
