@@ -16,7 +16,6 @@ public class exe007 {
             System.out.print("Enter a Guess [1 - 10]: ");
             int guess = sc.nextInt();
 
-
             if (guess == n){
                 System.out.println("You got it right!\nI was thinking of " + n);
                 break;
