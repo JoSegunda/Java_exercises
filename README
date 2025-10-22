@@ -1,8 +1,8 @@
 # JAVA EXERCISES
-Este repository contains challenges and java exercises
+This repository contains challenges and java exercises
 
 ## Exercise 001
-Calculate the hypotenuse
+Calculate the hypotenuse.
 
 ## Exercise 002
 Write a java program that returns the volume area and circumference of a circle.
@@ -11,7 +11,7 @@ Write a java program that returns the volume area and circumference of a circle.
 Make a program that calculates compound interest.
 
 ## Exercise 004
-Weight conversion program, pounds to kilograms
+Weight conversion program, pounds to kilograms.
 
 ## Exercise 005
 Temperature conversion program. Farenheit to celsius.
@@ -20,4 +20,7 @@ Temperature conversion program. Farenheit to celsius.
 Make a calculator program.
 
 ## Exercise 007
-Make a number guessing game
+Make a number guessing game.
+
+## Exercise 008
+Make a banking program.
