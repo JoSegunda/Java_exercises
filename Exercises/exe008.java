@@ -29,7 +29,7 @@ public class exe008 {
                 }
             }
         } while (choice != 4);
-
+        System.out.println("Thank you, have a good day");
         sc.close();
     }
     static  void ShowBalance(){
@@ -43,24 +43,28 @@ public class exe008 {
         if (amount < 0){
             System.out.println("Amount can't be negative.");
         }
-        printDashes();
-        balance = amount;
-        System.out.println("Deposited $"+amount);
+        else {
+            printDashes();
+            balance = amount;
+            System.out.println("Deposited $"+amount);
+        }
+
 
     }
 
     static  void withdrawAmount(double amount){
 
-        if (amount > balance){
-            System.out.println("Current Balance: "+balance);
-            System.out.println("Withdrawal too high.");
+        if (amount > balance ) {
+            System.out.println("Current Balance: " + balance);
+            System.out.println("Unable to withdraw");
+        }
+       else if (balance < 0){
+                System.out.println("Unable to withdraw negative funds.");
         }else{
             balance = balance - amount;
             printDashes();
             System.out.println("Withdrawn $"+amount);
-
         }
-
     }
 
     static void printDashes(){
