@@ -6,7 +6,7 @@ public class exe008 {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        int choice = 0;
+
 
         System.out.println("==========================");
         System.out.println("      Banking program     ");
@@ -17,16 +17,48 @@ public class exe008 {
         System.out.println("|     4. Exit            |");
         System.out.println("==========================");
 
-        while (true){
+        int choice;
+        double depositAmount, withDrawal;
+        do {
             System.out.println("Enter your choice (1 - 4): ");
             choice = sc.nextInt();
 
-            if (choice == 4) {
-                break;
+            switch (choice){
+                case 1 -> ShowBalance();
+                case 2 -> {
+                    System.out.println("Deposit amount: ");
+                    depositAmount = sc.nextDouble();
+                    deposit(depositAmount);
+                }
+                case 3 ->{
+                    System.out.println("Amount to withdraw: ");
+                    withDrawal = sc.nextDouble();
+                }
             }
-        }
-
+        } while (choice != 4);
 
         sc.close();
+    }
+    static  void ShowBalance(){
+        printDashes();
+        System.out.println("Current balance: "+balance);
+        printDashes();
+    }
+
+    static void deposit(double amount){
+        printDashes();
+        System.out.println("Deposited $"+amount);
+        printDashes();
+    }
+
+    static  void withdrawalAmount(double amount){
+        balance -= amount;
+        printDashes();
+        System.out.println("Withdrawn $"+amount);
+        printDashes();
+    }
+
+    static void printDashes(){
+        System.out.println("-----------------------");
     }
 }
