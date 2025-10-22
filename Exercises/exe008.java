@@ -39,22 +39,26 @@ public class exe008 {
     }
 
     static void deposit(double amount){
+
+        if (amount < 0){
+            System.out.println("Amount can't be negative.");
+        }
         printDashes();
         balance = amount;
         System.out.println("Deposited $"+amount);
-        printDashes();
+
     }
 
     static  void withdrawAmount(double amount){
-        balance = balance - amount;
+
         if (amount > balance){
             System.out.println("Current Balance: "+balance);
             System.out.println("Withdrawal too high.");
-
         }else{
+            balance = balance - amount;
             printDashes();
             System.out.println("Withdrawn $"+amount);
-            printDashes();
+
         }
 
     }
