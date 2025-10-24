@@ -15,5 +15,13 @@ public class exe011 {
         System.out.println("============================");
         System.out.println("Quiz Game");
         System.out.println("============================");
+
+        for(int i = 0; i < questions.length; i++){
+            System.out.println(questions[i]);
+            for (int n = 0; n < 4; n++){
+                System.out.println(n+1 +". "+options[i][n]);
+            }
+            System.out.print("Your Guess: ");
+        }
     }
 }
