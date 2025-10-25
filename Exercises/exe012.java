@@ -11,37 +11,47 @@ public class exe012 {
         System.out.println("Rock, Paper and Scissors Game");
         System.out.println("==========================");
 
-        String move;
+        String move =" ";
         int indexChoice;
         String playAgain;
-        while(true) {
-            System.out.print("Enter Your move: ");
-            move = sc.nextLine().toLowerCase();
+        do {
+            while( !(move.equals("rock")) && !(move.equals("paper")) && !(move.equals("scissors"))){
+                System.out.print("Enter Your move: ");
+                move = sc.nextLine().toLowerCase();
+            }
 
-            indexChoice = random.nextInt(0,4);
+            indexChoice = random.nextInt(0, 3);
+            System.out.println("Computer Choice: " + option[indexChoice]);
+
             Thread.sleep(2000);
-            if (option[indexChoice].equals(move)){
-                System.out.println("==========");
-                System.out.println("You Won");
-                System.out.println("==========");
-            }
-            else{
-                System.out.println("==========");
-                System.out.println("You Lose");
-                System.out.println("==========");
-            }
+
+            PrintDashes();
+            CheckOutcome(option[indexChoice], move);
+            PrintDashes();
+
             System.out.println("Play again? [Y / N]: ");
             playAgain = sc.nextLine().toLowerCase();
-
-            if (playAgain.equals("n")){
+            move = "";
+            if (playAgain.equals("n")) {
                 stop = 1;
             }
 
-            if (stop == 1){
-                break;
-            }
-        }
+        } while (stop != 1);
+        System.out.println("Game over!");
 
         sc.close();
+    }
+
+    static void PrintDashes(){
+        System.out.println("==========");
+    }
+    static void CheckOutcome(String pc, String user){
+        if (pc.equals(user)){
+            System.out.println("It's a Tie");
+        } else if ((pc.equals("rock") && user.equals("scissors")) || (pc.equals("scissors") && user.equals("paper")) || (pc.equals("paper") && user.equals("rock"))) {
+            System.out.println("You lost!");
+        } else {
+            System.out.println("You won!");
+        }
     }
 }
