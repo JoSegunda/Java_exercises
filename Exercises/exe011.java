@@ -16,7 +16,7 @@ public class exe011 {
                 "7","boolean","To make decisions based on conditions","for"};
         int guess = 0;
         System.out.println("============================");
-        System.out.println("Quiz Game");
+        System.out.println("          Quiz Game         ");
         System.out.println("============================");
 
         for(int i = 0; i < questions.length; i++){
@@ -26,13 +26,21 @@ public class exe011 {
             }
             System.out.print("Your Guess: ");
             guess = sc.nextInt();
-            IsCorrect(i, guess);
+            String option = options[i][guess-1];
+            if (option.equals(answers[i])){
+                System.out.println("========");
+                System.out.println("Correct");
+                System.out.println("========");
+            }
+            else {
+                System.out.println("=========");
+                System.out.println("Incorrect");
+                System.out.println("=========");
+            }
         }
 
         sc.close();
     }
 
-    static  boolean IsCorrect(int row, int column){
-        if
-    }
+
 }
