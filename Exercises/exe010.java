@@ -1,4 +1,4 @@
-public class exe10 {
+public class exe010 {
     public static void main(String[] args){
 
         char[][] numbers = {

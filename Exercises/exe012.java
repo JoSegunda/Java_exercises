@@ -15,7 +15,9 @@ public class exe012 {
         int indexChoice;
         String playAgain;
         do {
-            while( !(move.equals("rock")) && !(move.equals("paper")) && !(move.equals("scissors"))){
+            while( !(move.equals("rock"))
+                    && !(move.equals("paper"))
+                    && !(move.equals("scissors"))){
                 System.out.print("Enter Your move: ");
                 move = sc.nextLine().toLowerCase();
             }
@@ -48,7 +50,9 @@ public class exe012 {
     static void CheckOutcome(String pc, String user){
         if (pc.equals(user)){
             System.out.println("It's a Tie");
-        } else if ((pc.equals("rock") && user.equals("scissors")) || (pc.equals("scissors") && user.equals("paper")) || (pc.equals("paper") && user.equals("rock"))) {
+        } else if ((pc.equals("rock") && user.equals("scissors"))
+                || (pc.equals("scissors") && user.equals("paper"))
+                || (pc.equals("paper") && user.equals("rock"))) {
             System.out.println("You lost!");
         } else {
             System.out.println("You won!");
