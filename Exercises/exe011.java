@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class exe011 {
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         String[] questions ={
                 "What does a variable store", "Which symbol is used for comments in Python",
@@ -13,7 +13,7 @@ public class exe011 {
                 {"if","for","print","break"},{"A set of steps to solve a problem","A programming language","A data structure","A type of variable"}
         };
         String[] answers = {"Information that can vary during program execution","#",
-                "7","boolean","To make decisions based on conditions","for"};
+                "7","boolean","To make decisions based on conditions","for","A set of steps to solve a problem"};
         int guess = 0;
         System.out.println("============================");
         System.out.println("          Quiz Game         ");
@@ -26,6 +26,7 @@ public class exe011 {
             }
             System.out.print("Your Guess: ");
             guess = sc.nextInt();
+            Thread.sleep(2000);
             String option = options[i][guess-1];
             if (option.equals(answers[i])){
                 System.out.println("========");
@@ -35,9 +36,12 @@ public class exe011 {
             else {
                 System.out.println("=========");
                 System.out.println("Incorrect");
+                System.out.println("answer: "+answers[i]);
                 System.out.println("=========");
             }
+            Thread.sleep(2000);
         }
+        System.out.println("END GAME");
 
         sc.close();
     }
