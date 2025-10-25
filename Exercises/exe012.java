@@ -4,7 +4,7 @@ public class exe012 {
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
-        String[] option = {"rock","paper","Scissors"};
+        String[] option = {"rock","paper","scissors"};
         int stop = 0;
 
         System.out.println("==========================");
@@ -16,7 +16,7 @@ public class exe012 {
         String playAgain;
         while(true) {
             System.out.print("Enter Your move: ");
-            move = sc.nextLine();
+            move = sc.nextLine().toLowerCase();
 
             indexChoice = random.nextInt(0,4);
             Thread.sleep(2000);
