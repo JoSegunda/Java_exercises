@@ -13,6 +13,7 @@ public class exe012 {
 
         String move;
         int indexChoice;
+        String playAgain;
         while(true) {
             System.out.print("Enter Your move: ");
             move = sc.nextLine();
@@ -28,6 +29,12 @@ public class exe012 {
                 System.out.println("==========");
                 System.out.println("You Lose");
                 System.out.println("==========");
+            }
+            System.out.println("Play again? [Y / N]: ");
+            playAgain = sc.nextLine().toLowerCase();
+
+            if (playAgain.equals("n")){
+                stop = 1;
             }
 
             if (stop == 1){
