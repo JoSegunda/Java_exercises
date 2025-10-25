@@ -24,6 +24,11 @@ public class exe012 {
                 System.out.println("You Won");
                 System.out.println("==========");
             }
+            else{
+                System.out.println("==========");
+                System.out.println("You Lose");
+                System.out.println("==========");
+            }
 
             if (stop == 1){
                 break;
