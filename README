@@ -1,74 +1,9 @@
-# 🧩 Java Exercises
+Welcome to the Java Exercises repository!
+This project contains a series of beginner-to-intermediate Java programming challenges designed to help 
+practice fundamental concepts such as variables, loops, conditionals, arrays, methods, and basic OOP.
 
-This repository contains a collection of **Java challenges and exercises** to help you practice programming fundamentals and problem-solving.
+Each exercise focuses on a specific programming skill or problem type.
+The goal is to write small, self-contained programs that reinforce understanding of core Java syntax and logic.
+All exercises are organized and numbered for easy navigation.
 
----
-
-## 📘 Exercises
-
-### **Exercise 001 — Hypotenuse Calculator**
-Create a program that calculates the **hypotenuse** of a right triangle.
-
----
-
-### **Exercise 002 — Circle Calculator**
-Write a Java program that returns the **area**, **circumference**, and **volume** of a circle.
-
----
-
-### **Exercise 003 — Compound Interest**
-Develop a program that calculates **compound interest** over time.
-
----
-
-### **Exercise 004 — Weight Converter**
-Create a program that converts **pounds (lb)** to **kilograms (kg)**.
-
----
-
-### **Exercise 005 — Temperature Converter**
-Write a program that converts **Fahrenheit** to **Celsius**.
-
----
-
-### **Exercise 006 — Basic Calculator**
-Make a simple **calculator program** that performs basic arithmetic operations.
-
----
-
-### **Exercise 007 — Number Guessing Game**
-Build a **game** where the player tries to guess a randomly generated number.
-
----
-
-### **Exercise 008 — Banking System**
-Develop a simple **banking program** that handles deposits, withdrawals, and balance checking.
-
----
-
-### **Exercise 009 — Dice Roller**
-Create a program that **simulates rolling dice** and displays the result.
-
----
-
-### **Exercise 010 — Phone Keypad (2D Array)**
-Use a **2D array** to represent a phone keypad layout.
-
----
-
-### **Exercise 011 — Quiz Game**
-Build a **quiz game** that asks multiple-choice questions and keeps score.
-
----
-
-### **Exercise 012 — Rock, Paper, Scissors**
-Create a **Rock, Paper, Scissors** game against the computer.
-
----
-
-### **Exercise 013 — Slot Machine**
-Develop a **slot machine simulation** that displays random symbols and results.
-
----
-
-💡 *Each exercise is designed to help you strengthen your understanding of Java syntax, logic, and core concepts.*
+You can see them in the project WIKI.
