@@ -1,9 +1,5 @@
 Welcome to the Java Exercises repository!
-<<<<<<< HEAD
-This project contains a series of beginner-to-intermediate Java programming challenges designed to help 
-=======
 This project contains a series of beginner-to-intermediate Java programming challenges designed to help
->>>>>>> 8a5a6f4 (updated exercise 13)
 practice fundamental concepts such as variables, loops, conditionals, arrays, methods, and basic OOP.
 
 Each exercise focuses on a specific programming skill or problem type.
