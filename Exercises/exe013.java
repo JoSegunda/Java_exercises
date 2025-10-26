@@ -6,8 +6,9 @@ public class exe013 {
         Scanner sc = new Scanner(System.in);
         System.out.println("===========================");
         System.out.println("  Welcome to Java Slots");
-        System.out.println("Symbols: \uD83C\uDF52");
+        System.out.println("Symbols: 🍒 🍉 🍋 🔔 🌟");
         System.out.println("===========================");
+
 
         sc.close();
     }
