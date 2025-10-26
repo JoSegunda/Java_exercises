@@ -1,41 +1,74 @@
-# JAVA EXERCISES
-This repository contains challenges and java exercises
+# 🧩 Java Exercises
 
-## Exercise 001
-Calculate the hypotenuse.
+This repository contains a collection of **Java challenges and exercises** to help you practice programming fundamentals and problem-solving.
 
-## Exercise 002
-Write a java program that returns the volume area and circumference of a circle.
+---
 
-## Exercise 003
-Make a program that calculates compound interest.
+## 📘 Exercises
 
-## Exercise 004
-Weight conversion program, pounds to kilograms.
+### **Exercise 001 — Hypotenuse Calculator**
+Create a program that calculates the **hypotenuse** of a right triangle.
 
-## Exercise 005
-Temperature conversion program. Fahrenheit to celsius.
+---
 
-## Exercise 006
-Make a calculator program.
+### **Exercise 002 — Circle Calculator**
+Write a Java program that returns the **area**, **circumference**, and **volume** of a circle.
 
-## Exercise 007
-Make a number guessing game.
+---
 
-## Exercise 008
-Make a banking program.
+### **Exercise 003 — Compound Interest**
+Develop a program that calculates **compound interest** over time.
 
-## Exercise 009
-Make a Dice Rolling Program.
+---
 
-## Exercise 010
-make a 2d array that resembles a phone.
+### **Exercise 004 — Weight Converter**
+Create a program that converts **pounds (lb)** to **kilograms (kg)**.
 
-## Exercise 011
-Make a quiz game.
+---
 
-## Exercise 012
-Make a rock, paper and scissors game.
+### **Exercise 005 — Temperature Converter**
+Write a program that converts **Fahrenheit** to **Celsius**.
 
-## Exercise 013
-Make a slot machine.
+---
+
+### **Exercise 006 — Basic Calculator**
+Make a simple **calculator program** that performs basic arithmetic operations.
+
+---
+
+### **Exercise 007 — Number Guessing Game**
+Build a **game** where the player tries to guess a randomly generated number.
+
+---
+
+### **Exercise 008 — Banking System**
+Develop a simple **banking program** that handles deposits, withdrawals, and balance checking.
+
+---
+
+### **Exercise 009 — Dice Roller**
+Create a program that **simulates rolling dice** and displays the result.
+
+---
+
+### **Exercise 010 — Phone Keypad (2D Array)**
+Use a **2D array** to represent a phone keypad layout.
+
+---
+
+### **Exercise 011 — Quiz Game**
+Build a **quiz game** that asks multiple-choice questions and keeps score.
+
+---
+
+### **Exercise 012 — Rock, Paper, Scissors**
+Create a **Rock, Paper, Scissors** game against the computer.
+
+---
+
+### **Exercise 013 — Slot Machine**
+Develop a **slot machine simulation** that displays random symbols and results.
+
+---
+
+💡 *Each exercise is designed to help you strengthen your understanding of Java syntax, logic, and core concepts.*
