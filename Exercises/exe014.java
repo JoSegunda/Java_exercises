@@ -15,7 +15,6 @@ public class exe014 {
         for (int i = 0; i < n; i++){
             System.out.print("Enter a fruit: ");
             String fruit = sc.nextLine();
-
             fruits.add(fruit);
         }
         System.out.println(fruits);
