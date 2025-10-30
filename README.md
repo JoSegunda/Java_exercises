@@ -70,5 +70,5 @@ Create a **Rock, Paper, Scissors** game against the computer.
 ### **Exercise 013 — Slot Machine**
 Develop a **slot machine simulation** that displays random symbols and results.
 
-### **Exercise 013 — ArrayLists**
+### **Exercise 014 — ArrayLists**
 Save a number of foods in a arrayList.
