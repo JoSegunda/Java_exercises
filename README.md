@@ -73,5 +73,5 @@ Develop a **slot machine simulation** that displays random symbols and results.
 ### **Exercise 014 — ArrayLists**
 Save a number of foods in a arrayList.
 
-### **Exercise 014 — FILES**
+### **Exercise 015 — FILES**
 Make a program that can play a music.
