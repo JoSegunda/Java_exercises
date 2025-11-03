@@ -17,9 +17,9 @@ public class exe015 {
             clip.open(audioStream);
             String response = " ";
             while (!response.equals("q")){
-                System.out.println("P = play\nS = Stop\n");
+                System.out.println("P = play\nS = Stop");
                 System.out.println("R = Reset\nQ = Quit");
-                System.out.println("Enter your choice: ");
+                System.out.print("Enter your choice: ");
                 response = sc.next().toUpperCase();
 
                 switch (response){
