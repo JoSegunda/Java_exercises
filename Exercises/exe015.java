@@ -18,7 +18,7 @@ public class exe015 {
             String response = " ";
             while (!response.equals("q")){
                 System.out.println("P = play\nS = Stop\n");
-                System.out.println("R = Reset\nQ = Quit\n");
+                System.out.println("R = Reset\nQ = Quit");
                 System.out.println("Enter your choice: ");
                 response = sc.next().toUpperCase();
 
